@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgFileSaveOff = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={48}
+    height={48}
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="m824-218-42-42 52-52 42 42zm-64-63-60-60v-78h60zM580 0v-60h232L220-652v432h300v60H160v-552L38-834l42-42L896-60V0zm120-479h60v-167L526-880H161l60 60h279v200h200zm-179-41" />
+  </svg>
+);
+export default SvgFileSaveOff;

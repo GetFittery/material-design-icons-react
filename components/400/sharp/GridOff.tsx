@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgGridOff = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={48}
+    height={48}
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="M340-180v-160H180v160zm220 0v-134l-26-26H400v160zM340-400v-134l-26-26H180v160zm440 0v-160H620v134l26 26zM560-620v-160H400v134l26 26zm220 0v-160H620v160zm60 414L206-840h634zm-720 86v-720l720 720zm713 79L26-848l43-43L876-84z" />
+  </svg>
+);
+export default SvgGridOff;

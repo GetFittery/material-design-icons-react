@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgTableChartViewFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={48}
+    height={48}
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="m289-87-42-42 269-270 140 140 215-214 42 42-257 257-140-140zm-149-33H80v-740h720v290H140z" />
+  </svg>
+);
+export default SvgTableChartViewFill;

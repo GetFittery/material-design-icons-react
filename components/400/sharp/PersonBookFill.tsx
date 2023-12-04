@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgPersonBookFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={48}
+    height={48}
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="M480-302q-74 0-139.5 24.5T220-211v71h520v-71q-55-42-120.5-66.5T480-302M160-80v-800h640v800zm322-301q58 0 98-40t40-98q0-58-40-98t-98-40q-58 0-98 40t-40 98q0 58 40 98t98 40" />
+  </svg>
+);
+export default SvgPersonBookFill;

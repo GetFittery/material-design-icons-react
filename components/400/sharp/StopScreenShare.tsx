@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgStopScreenShare = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={48}
+    height={48}
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="M552-485 444-593h86v-70l100 100zm253 256-60-62h69v-483H262l-60-60h672v605zm32 201-97-97H40v-60h640l-46-46H87v-547l-55-55 43-43L880-71zM393-472v85h-60v-90q0-10 2-22.5t7-23.034L147-718v427h427zm-32-33" />
+  </svg>
+);
+export default SvgStopScreenShare;

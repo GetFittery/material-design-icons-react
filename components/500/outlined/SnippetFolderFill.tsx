@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgSnippetFolderFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={48}
+    height={48}
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="M142.152-154.022q-27.599 0-47.865-20.765-20.265-20.766-20.265-47.365v-515.696q0-26.697 20.265-47.533 20.266-20.837 47.865-20.837H418.37l62.63 62.87h336.848q26.697 0 47.533 20.766 20.837 20.766 20.837 47.365v453.065q0 26.599-20.837 47.365-20.836 20.765-47.533 20.765zM562.63-345.739V-551.63h68.783l62.848 62.848v143.043zm-63.587 63.587h258.805v-233.065l-100-100H499.043z" />
+  </svg>
+);
+export default SvgSnippetFolderFill;

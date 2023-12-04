@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgTabletMac = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={48}
+    height={48}
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="M114.5-34.5v-891h731v891zm68.13-158.13v90h594.74v-90zm0-60h594.74v-514.74H182.63zm0-574.74h594.74v-30H182.63zm0 0v-30zm0 634.74v90zm297.545 75q12.825 0 21.325-8.676 8.5-8.675 8.5-21.5 0-12.824-8.675-21.324-8.676-8.5-21.5-8.5-12.825 0-21.325 8.675t-8.5 21.5q0 12.825 8.675 21.325 8.676 8.5 21.5 8.5" />
+  </svg>
+);
+export default SvgTabletMac;

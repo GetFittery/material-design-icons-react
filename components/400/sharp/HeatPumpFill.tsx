@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgHeatPumpFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={48}
+    height={48}
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="M460-271v-161L346-318q23 21 52.5 33t61.5 14m40 0q32-2 61-14.5t53-32.5L500-432zm142-75q21-24 33-53t14-61H528zM528-500h162q-2-32-15-60.5T642-614zm-28-28 114-114q-24-20-53-32.5T500-689zm-20 78q13 0 21.5-8.5T510-480q0-13-8.5-21.5T480-510q-13 0-21.5 8.5T450-480q0 13 8.5 21.5T480-450m-20-78v-161q-32 1-61 14t-53 33zm-189 28h161L318-614q-20 24-32.5 53T271-500m47 154 114-114H271q2 32 14 61t33 53M120-120v-720h720v720z" />
+  </svg>
+);
+export default SvgHeatPumpFill;

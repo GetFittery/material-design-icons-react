@@ -1,0 +1,14 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgPhonelinkRing = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={48}
+    height={48}
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="m747-357-42-42q17-17 26-38.267 9-21.266 9-44.733 0-23-8.5-45T706-566l41-42q25 25 39 57.378t14 67.5Q800-448 786-415t-39 58m84 84-41-42q33.385-33.234 51.692-76.117Q860-434 860-481.5q0-47.5-19.5-90.5T783-644l46-46q43.966 41.171 67.483 95.086Q920-541 920-481t-23 113.553Q874-313.895 831-273M200-40v-880h560v206h-60v-56H260v580h440v-56h60v206zm60-90v30h440v-30zm0-700h440v-30H260zm0 0v-30zm0 700v30z" />
+  </svg>
+);
+export default SvgPhonelinkRing;
