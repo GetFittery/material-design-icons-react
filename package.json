@@ -1,0 +1,17 @@
+{
+  "name": "material-design-icons-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./scripts/create-components.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@svgr/cli": "^8.1.0",
+    "svgo": "^3.0.5",
+    "zx": "^7.2.3"
+  }
+}
