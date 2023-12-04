@@ -1,6 +1,6 @@
 {
   "name": "@fittery/material-design-icons-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "components/filled/index.ts",
   "dist": {
