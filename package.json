@@ -1,8 +1,11 @@
 {
-  "name": "material-design-icons-react",
+  "name": "@fittery/material-design-icons-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "components/filled/index.ts",
+  "dist": {
+    "module": "components/filled/index.ts"
+  },
   "scripts": {
     "build": "./scripts/create-components.mjs"
   },
@@ -11,7 +14,11 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@svgr/cli": "^8.1.0",
+    "@types/react": "^18.2.41",
     "svgo": "^3.0.5",
     "zx": "^7.2.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
   }
 }
